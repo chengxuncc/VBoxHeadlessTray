@@ -153,22 +153,20 @@ Source code for VBoxHeadlessTray is available from [github](http://github.com/to
 
 To build:
 
-  1. Get and build SimpleLib - git://github.com/toptensoftware/SimpleLib.git
+  1. Get and build SimpleLib: `git clone https://github.com/toptensoftware/SimpleLib.git`
 
-  2. Get the [VirtualBox SDK](http://download.virtualbox.org/virtualbox/vboxsdkdownload.html)
+  2. Get the [VirtualBox SDK](https://www.virtualbox.org/wiki/Downloads)
   
-  3. Get VBoxHeadlessTray - git://github.com/toptensoftware/VBoxHeadlessTray.git
+  3. Get VBoxHeadlessTray: `git clone https://github.com/toptensoftware/VBoxHeadlessTray.git`
   
   4. Open and build VBoxHeadlessTray.sln
 
 Expected folder structure is:
 
-    \YourProjectsFolder
-      \SDKs
-        \VirtualBox4
-    	 \sdk
-      \SimpleLib
+    \Project
       \VBoxHeadlessTray
+      \sdk
+    \SimpleLib
 
 To build setup program:
 
